@@ -7,7 +7,7 @@ h1 {
     font-size: 50px;
 }
 
-.orange {
+h1 .orange {
     color: orange;
 }
 
@@ -15,7 +15,7 @@ h1 {
     display: flex;
     background-image: url("image/top-banner.png");
     background-repeat: no-repeat;
-    margin-bottom: 150px;
+    height: 100vh;
 }
 
 .left-col {
@@ -31,8 +31,8 @@ h1 {
 }
 
 .right-col img {
-    width: 80%;
-    ;
+    width: 90%;
+    margin-top: 50px;
 }
 
 .button {
@@ -51,4 +51,49 @@ h1 {
     background-image: url("image/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    height: 100vh;
+}
+
+#experience {
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100vh;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.container-col {
+    width: 40%;
+    margin: 0 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+.container-col h3 {
+    color: #FFA500;
+}
+
+.container-col h2 {
+    font-size: 38px;
+}
+
+#left-border {
+    border-left: 8px solid;
+    border-image: linear-gradient(#FB6555, #35A0F2);
+    border-image-slice: 1;
+}
+
+#right-border {
+    border-left: 8px solid;
+    border-image: linear-gradient(#FF267B, #7140D9);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
