@@ -15,6 +15,7 @@ h1 {
     display: flex;
     background-image: url("image/top-banner.png");
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 
 .left-col {
@@ -34,16 +35,20 @@ h1 {
     ;
 }
 
-button {
+.button {
     background: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 15px 40px;
+    padding: 10px 40px;
     border-radius: 5px;
-    border: none;
-
-}
-
-button a {
     text-decoration: none;
     color: white;
     font-weight: 700;
+
+}
+
+
+#about {
+    display: flex;
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
